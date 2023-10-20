@@ -1,27 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" type="text/css" href="./CSS/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomaquete</title>
+    <link rel="stylesheet" href="./CSS/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Lato&family=Lumanosimo&family=Poppins:ital,wght@0,100;0,300;0,400;1,300&family=Ysabeau+SC:wght@500;600;700&display=swap" rel="stylesheet">
-    <title>Biologia</title>
-    <body>
+</head>
+
+<body>
     <header class="cabecalho">
-        <div class="cabecalho_detalhes">
-            <div class="cabecalho_detalhes2">
-                <img src="./IMAGES/menu_icon.png" class="menu_icon">
-                <img src="./IMAGES/logo.png" alt="Logo da página" class="logo"> 
-                <p class="nome_do_site">As Sementes de Mostarda</p>    
-            </div>
-            <div class="icons"> 
-                <img src="./IMAGES/book_icon.png" alt="Ícone de Bibliografia" class="book_icon">
-                <a href="./HTML/login.html" target="_blank"><img src="./IMAGES/user_icon.png" alt="Ícone de Usuário" class="user_icon"></a>
-            </div>
+        <div class="cabecalho__detalhes">
+            <img src="./IMAGES/logo.png" alt="Logo da empresa" class="cabecalho__detalhes__logo">
+            <p class="nome">As Sementes de Mostarda</p>
         </div>
-    </header>     
+
+        <nav>
+            <center> <ul>
+                 <li>
+                     <a href="">Sobre</a>
+                 </li>
+                 <li class="partes_dela">
+                     <a href="">Características</a>
+                     <div class="menu_partes">
+                         <a href="">Célula Vegetal</a>
+                         <a href="">Célula Animal</a>
+                     </div>
+                 <li class="partes_dela">
+                     <a href="">Partes da Célula</a>
+                     <div class="menu_partes">
+                         <a href="">Célula Vegetal</a>
+                         <a href="">Célula Animal</a>
+                     </div>
+                 </li>
+                 <li>
+                    <a href="">Curiosidades</a>
+                </li>
+                <li>
+                    <a href="">Bibliografia</a>
+                </li>
+     
+             </ul></center>
+         </nav>
+         <div class="cabecalho__detalhes">
+            <img class="cabecalho__detalhes__user" src="./IMAGES/if_icon.png" alt="Usuário">
+        </div>
+    </header>
 
     <div class="painel1">
         <center>
@@ -29,11 +55,40 @@
             <p class="texto_painel1">célula <b>animal</b> e <b>vegetal</b>!</p>
         </center>
     </div>
-    <fieldset class="painel2">
-        <p class="texto_painel2">Mas antes, vejamos as suas semelhanças:</p>
-        <img src="./IMAGES/animal_e_vegetal1.png" alt="Imagem de células animal e vegetal, uma ao lado da outra" class="animal_e_vegetal1">
-    </fieldset>
-    
+    <p class="texto_painel2">Mas antes, vejamos as suas semelhanças: </p>
+    <div class="painel2">
+        <div class="painel2e1">
+            <img src="./IMAGES/animal_e_vegetal1.png" alt="Imagem de células animal e vegetal, 
+            uma ao lado da outra" class="animal_vegetal_img"> 
+            <!-- primeiro fieldset - MEMBRANA-->
+            <fieldset class="item_painel2">
+                <p class="texto_item_painel2"><b>Membrana</b></p>
+                <p class="texto2_item_painel2">It surrounds the cell and is responsible
+                    for regulating what moves in and out of a cell. </p>
+            </fieldset>
+            
+            <fieldset class="item_painel2">
+                <p class="texto_item_painel2"><b>Núcleo</b></p>
+                <p class="texto2_item_painel2">It surrounds the cell and is responsible
+                    for regulating what moves in and out of a cell. </p>
+            </fieldset>    
+        </div>
+        <div class="painel2e2">
+            <fieldset class="item_painel2">
+                <p class="texto_item_painel2"><b>idk</b></p>
+                <p class="texto2_item_painel2">texto texto texto texto  </p>
+            </fieldset>    
+            <fieldset class="item_painel2">
+                <p class="texto_item_painel2"><b>idk</b></p>
+                <p class="texto2_item_painel2">texto texto texto texto </p>
+            </fieldset>    
+            <fieldset class="item_painel2">
+                <p class="texto_item_painel2"><b>idk</b></p>
+                <p class="texto2_item_painel2">texto texto texto texto </p>
+            </fieldset>    
+
+        </div>
+
+    </div>
 </body>
 </html>
-
