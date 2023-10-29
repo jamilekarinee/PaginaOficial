@@ -14,6 +14,9 @@ body {
     --altura_cabecalho: 100px;
     --cor_painel1: #B0E1AF; 
     --partes_da_celula: #316799; 
+    --fundo_painel_animal: rgb(145, 186, 224); 
+    --verde_claro: #B9D870;
+    --verde_escuro: #136447; 
 }
 
 .cabecalho {
@@ -103,106 +106,89 @@ nav li a:hover{
     border: 0px; 
     margin-top: 10px; 
     border-radius: 8px; 
-    height: 800px; 
+    height: auto; 
     width: auto; 
-    margin-left: 12px;
-    margin-right: 12px;
-}
-.painel2e1{
-    display: flex;
+} 
+.painel3{
+    background-color: var(--fundo_painel_animal); 
+    border: 0px; 
+    margin-top: 10px; 
+    border-radius: 8px; 
+    height: auto; 
+    width: auto; 
+} 
+.painel4{
+    background-color: var(--verde_claro); 
+    border: 0px; 
+    margin-top: 10px; 
+    border-radius: 8px; 
+    height: auto; 
+    width: auto; 
 } 
 .texto_painel2{
     margin-left: 19px; 
     margin-top: 10px; 
-    font-family: 'Poppins', sans-serif; 
-    font-size: 19px;
+    font-size: 19px; 
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
-.item_painel2 {
-    background-color: var(--partes_da_celula);
-    width: 400px;
-    height: 150px;
+.texto_painel3{
+    margin-left: 19px; 
+    margin-top: 15px; 
+    font-size: 18px; 
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.texto_celula_animal{
+    margin-left: 19px; 
+    font-size: 18px; 
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.celula2{
+    height: 240px;
+    width: 430px;
+    float: left;
+    padding: 10px;
+    border:none; 
+}
+.celula3{
+    height: auto;
+    width: 270px;
+    float: left;
+    padding: 10px;
+    border:none; 
+    margin-left: 90px;
+}
+.p_animal{ 
+    background-color: var(--cor_menu_lateral);
+    width: 420px;
+    height: 170px;
     margin-top: 20px; 
     border: none; 
     margin-left: 20px; 
     margin-right: 20px; 
-    border-radius: 18px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
 }
-.texto_item_painel2{
-    font-size: 20px;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif; 
-    color: white; 
-    margin-left: 18px;
+.segundo_animal{
+    margin-top: 70px;
 }
-.texto2_item_painel2{
-    font-size: 17px;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif; 
-    color: white; 
-    margin-left: 18px;
-}
-.painel2e2{
-    display: flex;
-}
-
-
-
-
-
-
-
-
-/*
-.texto_e_img_painel2{
-    display: flex; 
-    margin-left: 10px;
-}
-.resumo_da_parte{
-    font-size: 15px;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif; 
-    margin-left: 10px; 
-    color: white; 
-}
-/*            <img src="./IMAGES/animal_e_vegetal1.png" alt="Imagem de células animal e vegetal, 
-            uma ao lado da outra" class="animal_vegetal_img">  
-*//*
-.item_painel3{
+.p_animal2{
     background-color: var(--partes_da_celula);
-    width: 400px;
-    height: 150px;
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
     border: none; 
     margin-left: 20px; 
     margin-right: 20px; 
-    border-radius: 18px; 
-}
-.imagens_item_painel2{
-    width: 150px;
-    height: 150px; 
-    margin-left: 120px;
-}*/
-.animal_vegetal_img{
-    width: 420px;
-    height: 220px;
-    margin-top: 40px;
-    margin-left: 20px;
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
 }
 
-.animal_vegetal_img:hover{
-    transform: scale(1.2) translateY(0.01px);
-    transform: 3s;
-}/*
-.partes_da_celula{
-    border-radius: 5px; 
-    height: 220px;
-    width: 220px; 
-    background-color: var(--partes_da_celula); 
-    margin-top: 80px;
-    border: none; 
-    
-}
-*/
-
-
-/* nao apaguem esse de baixo, é a parte de responsividade do site */
-@media (max-width: 800px) {
+/* Responsividade do site */
+@media (max-width: 900px) {
     .nome_do_site{
         font-size: 17px;
     }
@@ -222,4 +208,87 @@ nav li a:hover{
         height: auto; 
         width: 20px;
     }
+    .celula2{
+        height: auto; 
+        width: 350px; 
+        justify-content: center;
+    }
 }
+
+/*Css da partes da célula vegetal - Patrícia*/
+.texto_m{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px; 
+    text-align: center;
+    display: flex;
+}
+
+.pvegetal, .pvegetal2, .pvegetal3, .pvegetal4{ /*as classes que englobam as divs ficam juntas modificando a altura, bordar, cor etc.*/
+    background-color: var(--verde_escuro);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+}
+
+.pv{
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+}
+.texto_m{
+    padding-left: 18px;
+    color: white;
+
+}
+.textom_m2{
+    margin-left: 10px;
+}
+.celulas_animal_e_vegetal{  
+    height: 120px;
+    width: 120px;
+    float: left;
+    padding: 5px;
+}
+.nucleo{
+    height: 120px;
+    width: 130px;
+    float: left;
+    padding: 5px;
+}
+
+.reticulo {
+    height: 105px;
+    width: 105px;
+    float: left;
+    padding-left: 10px;
+}
+
+.celular{
+    height: 190px;
+    width: 190px;
+    float: left;
+    padding: 10px;
+    border:none; 
+}
+
+
+.reticulo:hover, .celulas_animal_e_vegetal:hover, .nucleo:hover {
+    transform: scale(1.2);
+}
+
+.celular:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .pvegetal, .pvegetal2, .pvegetal3, .pvegetal4 {
+      width: 100%; 
+    }
+  }
