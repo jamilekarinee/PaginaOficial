@@ -15,8 +15,10 @@ body {
     --cor_painel1: #B0E1AF; 
     --partes_da_celula: #316799; 
     --fundo_painel_animal: rgb(145, 186, 224); 
-    --verde_claro: #B9D870;
+    --verde_claro: #A7D397;
     --verde_escuro: #136447; 
+    --verde_vegetal: #76bb71; 
+    --azul_animal: #5689b9; 
 }
 
 .cabecalho {
@@ -106,7 +108,7 @@ nav li a:hover{
     border: 0px; 
     margin-top: 10px; 
     border-radius: 8px; 
-    height: auto; 
+    height: 680px; 
     width: auto; 
 } 
 .painel3{
@@ -114,15 +116,15 @@ nav li a:hover{
     border: 0px; 
     margin-top: 10px; 
     border-radius: 8px; 
-    height: auto; 
+    height: 1700px; 
     width: auto; 
 } 
 .painel4{
     background-color: var(--verde_claro); 
     border: 0px; 
-    margin-top: 10px; 
+    margin-top: 20px; 
     border-radius: 8px; 
-    height: auto; 
+    height: 1320px; 
     width: auto; 
 } 
 .texto_painel2{
@@ -151,24 +153,19 @@ nav li a:hover{
 }
 .celula3{
     height: auto;
-    width: 270px;
+    width: 245px;
     float: left;
     padding: 10px;
     border:none; 
     margin-left: 90px;
 }
-.p_animal{ 
-    background-color: var(--cor_menu_lateral);
-    width: 420px;
-    height: 170px;
-    margin-top: 20px; 
-    border: none; 
-    margin-left: 20px; 
-    margin-right: 20px; 
-    border-radius: 18px;
-    color: white;
-    display: inline-block;
-    margin: 10px;
+.celula4{
+    height: auto;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border:none; 
+    margin-left: 90px;
 }
 .segundo_animal{
     margin-top: 70px;
@@ -215,7 +212,7 @@ nav li a:hover{
     }
 }
 
-/*Css da partes da célula vegetal - Patrícia*/
+/* Partes da célula vegetal */
 .texto_m{
     font-family: 'Poppins', sans-serif; 
     font-size: 20px; 
@@ -229,14 +226,98 @@ nav li a:hover{
     height: 170px;
     margin-top: 20px; 
     border: none; 
-    margin-left: 20px; 
-    margin-right: 20px; 
+    margin-left: 40px; 
+    margin-right: 40px; 
     border-radius: 18px;
     color: white;
     display: inline-block;
     margin: 10px;
 }
 
+.mitocondria{
+    background-color: var(--verde_escuro);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 60px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+.mitocondria11{
+    background-color: var(--verde_escuro);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 108px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+.ribossomos{
+    background-color: var(--verde_escuro);
+    width: 420px;
+    height: 180px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 60px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+.lisossomos{
+    background-color: var(--verde_escuro);
+    width: 420px;
+    height: 180px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 10px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+.nucleo_e_nucleolo{
+    background-color: var(--verde_escuro);
+    width: 420px;
+    height: 180px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 60px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+
+.cloroplasto{
+    background-color: var(--verde_escuro);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 60px; 
+    margin-right: 20px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+} 
+.golgi{
+    background-color: var(--verde_escuro);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-right: 60px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+
+.partes_celula_vegetal{
+    margin-left: 90px; 
+    font-size: 25px;
+}
 .pv{
     margin-top: 30px;
     margin-left: 30px;
@@ -292,3 +373,168 @@ nav li a:hover{
       width: 100%; 
     }
   }
+
+
+/* Semelhanças */
+.mitocondria_semelhanca{
+    background-color: var(--cor_menu_lateral);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 60px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+.p_animal3{
+    background-color: var(--cor_menu_lateral);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+}
+.mitocondria_animal_semelhancas{
+    background-color: var(--cor_menu_lateral);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 60px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+.golgi_animal_semelhancas{
+    background-color: var(--cor_menu_lateral);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-right: 60px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+/* Animal */
+.c_animal{
+    padding: 30px;
+    width: 60%;
+    background-color: var(--azul_animal);
+    border: var(--azul_animal);
+    border-radius: 30px;
+}
+.text-animal{
+    padding: 30px;
+    width: 160%;
+    background-color: var(--azul_animal);
+    border: var(--azul_animal);
+    border-radius: 15px;
+}
+.mitocondria_animal{
+    background-color: var(--partes_da_celula);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 60px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+.mitocondria_animal_mitocondria{
+    background-color: var(--partes_da_celula);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 145px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+.golgi_animal{
+    background-color: var(--partes_da_celula);
+    width: 420px;
+    height: 170px;
+    margin-top: 20px; 
+    border: none; 
+    margin-right: 60px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+
+
+/* Vegetal */ 
+.cvegetal{
+    padding: 30px;
+    width: 60%;
+    background-color: var(--verde_vegetal);
+    border: var(--verde_vegetal);
+    border-radius: 30px;
+}
+.mitocondria_vegetal{
+    background-color: var(--verde_escuro);
+    width: 420px;
+    height: 180px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 60px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+.pvegetal2_{
+    background-color: var(--verde_escuro);
+    width: 420px;
+    height: 180px;
+    margin-top: 20px; 
+    border: none; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+}
+.golgi_vegetal{
+    background-color: var(--verde_escuro);
+    width: 420px;
+    height: 180px;
+    margin-top: 20px; 
+    border: none; 
+    margin-right: 60px; 
+    border-radius: 18px;
+    color: white;
+    display: inline-block;
+}
+
+.texto_imag{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 70px; 
+    padding-bottom: 50px;
+}
+
+.text-li{
+    padding: 30px;
+    width: 160%;
+    background-color: var(--verde_vegetal);
+    border: var(--verde_vegetal);
+    border-radius: 15px;
+}
+
+.cel_v{
+    float: left;
+    margin-top: 5%;
+    padding: 50px;
+}
