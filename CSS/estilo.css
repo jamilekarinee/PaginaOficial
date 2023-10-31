@@ -57,7 +57,9 @@ body {
 .cabecalho__detalhes__user:hover{
     transform: scale(1.2);
 }
-
+.partes_dela{
+    display: inline-block;
+}
 
 nav li{
     display: inline-block;
@@ -184,33 +186,6 @@ nav li a:hover{
     margin: 10px;
 }
 
-/* Responsividade do site */
-@media (max-width: 900px) {
-    .nome_do_site{
-        font-size: 17px;
-    }
-    .menu_icon {
-        height: auto; 
-        width: 13.33px; 
-    } 
-    .logo{
-        height: 46.6px;
-        width: 46.6px;    
-    }
-    .user_icon{
-        height: auto; 
-        width: 20px;
-    }
-    .book_icon{
-        height: auto; 
-        width: 20px;
-    }
-    .celula2{
-        height: auto; 
-        width: 350px; 
-        justify-content: center;
-    }
-}
 
 /* Partes da célula vegetal */
 .texto_m{
@@ -537,4 +512,108 @@ nav li a:hover{
     float: left;
     margin-top: 5%;
     padding: 50px;
+}
+.rodape{
+    background-color: var(--cor_menu_lateral); 
+    text-align: center; 
+    color: white;
+}
+
+/* Responsividade do site */
+@media (max-width: 900px) {
+    .cabecalho__detalhes__logo{
+        height: auto; 
+        width: 65px; 
+    }
+    .nome{
+        font-size: 15px;
+    }
+    
+    .cact{
+        font-size: 0px;
+    }
+    
+    .painel2{
+        height: auto;
+        width: auto;
+    }
+    .painel3{
+        height: auto;
+        width: auto;
+    }
+    .painel4{
+        height: auto;
+        width: auto;
+    }
+    .partes_celula_vegetal{
+        font-size: 15px; 
+        text-align: center;
+    }
+    .cabecalho__detalhes__user{
+        height: 0px; 
+        width: 0px; 
+    }
+    .partes_dela{
+        display: flex;
+    }
+    .menu_icon {
+        height: auto; 
+        width: 13.33px; 
+    } 
+    .mitocondria_animal_mitocondria{
+        width: auto;
+        height: auto;
+    }
+    .user_icon{
+        height: auto; 
+        width: 20px;
+    }
+    .book_icon{
+        height: auto; 
+        width: 20px;
+    }
+    .texto_painel3{
+        font-size: 15px;
+    }
+    .rodape{
+        height: auto; 
+        width: auto;
+    }
+    .texto_painel1{
+        font-size: 20px;
+    }
+    .celula2{
+        height: 210px;
+        width: auto;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+    .celula3{
+        height: 210px;
+        width: auto; 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .mitocondria11, .pvegetal2, .mitocondria, .golgi, .mitocondria_vegetal, .pvegetal2_, 
+    .golgi_vegetal, .mitocondria_semelhanca, .p_animal3, .mitocondria_animal_semelhancas,
+    .p_animal3, .golgi_animal_semelhancas, 
+    .p_animal2, .mitocondria_animal, .golgi_animal
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+        height: auto; 
+        width: auto; 
+        margin-left: 5px;
+        margin-right: 5px; 
+        padding-top: 5px;
+    }
+    .mitocondria_animal_mitocondria{
+        padding-right: 20px;
+        padding-left: 20px;
+        height: auto; 
+        width: auto; 
+        margin-left: 5px;
+        margin-right: 5px; 
+        margin-top: 20px;
+    }
 }
