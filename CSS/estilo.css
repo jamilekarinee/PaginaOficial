@@ -53,7 +53,11 @@ body {
     border-radius: 50px;
     object-fit: cover; 
 }
-
+.videeos{
+    height: auto;
+    width: 400px; 
+    padding-left: 20px;
+}
 .cabecalho__detalhes__user:hover{
     transform: scale(1.2);
 }
@@ -110,7 +114,7 @@ nav li a:hover{
     border: 0px; 
     margin-top: 10px; 
     border-radius: 8px; 
-    height: 680px; 
+    height: auto; 
     width: auto; 
 } 
 .painel3{
@@ -118,7 +122,7 @@ nav li a:hover{
     border: 0px; 
     margin-top: 10px; 
     border-radius: 8px; 
-    height: 1700px; 
+    height: auto; 
     width: auto; 
 } 
 .painel4{
@@ -126,7 +130,7 @@ nav li a:hover{
     border: 0px; 
     margin-top: 20px; 
     border-radius: 8px; 
-    height: 1320px; 
+    height: auto; 
     width: auto; 
 } 
 .texto_painel2{
@@ -520,7 +524,7 @@ nav li a:hover{
 }
 
 /* Responsividade do site */
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
     .cabecalho__detalhes__logo{
         height: auto; 
         width: 65px; 
@@ -532,7 +536,6 @@ nav li a:hover{
     .cact{
         font-size: 0px;
     }
-    
     .painel2{
         height: auto;
         width: auto;
